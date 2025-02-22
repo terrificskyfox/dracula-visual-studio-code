@@ -1133,3 +1133,81 @@ tokenColors:
     settings:
       foreground: *YELLOW
       fontStyle: bold
+
+# Semantics
+semanticTokenColors:
+
+# =============================================================================
+# Macro
+# =============================================================================
+
+  macro:cpp:
+    foreground: *PURPLE
+
+# =============================================================================
+# Enumerations
+# =============================================================================
+
+  enum:cpp:
+    foreground: *CYAN
+    fontStyle: normal
+    # italic: false
+  enum.defaultLibrary:cpp:
+    fontStyle: italic
+    # italic: true
+
+  enumMember:cpp:
+    foreground: *PURPLE
+    fontStyle: bold
+    # bold: true
+
+# =============================================================================
+# Namespaces
+# =============================================================================
+
+  namespace:cpp:
+    foreground: *CYAN
+    fontStyle: normal
+    # italic: false
+  namespace.defaultLibrary:cpp:
+    fontStyle: italic
+    # italic: true
+
+# =============================================================================
+# Classes
+# =============================================================================
+
+  class.deduced:cpp:
+    foreground: *PINK
+    fontStyle: normal
+    # italic: false
+  type.deduced:cpp:
+    foreground: *PINK
+    fontStyle: normal
+    # italic: false
+
+  class.constructorOrDestructor:cpp:
+    foreground: *GREEN
+
+# =============================================================================
+# Properties
+# =============================================================================
+
+  property:cpp:
+    foreground: *FG
+    fontStyle: italic
+    # italic: true
+
+# =============================================================================
+# Methods
+# =============================================================================
+
+  method.virtual:cpp:
+    foreground: *GREEN
+    fontStyle: italic
+    # italic: true
+
+  function.static:cpp:
+    foreground: *GREEN
+    fontStyle: bold
+    # bold: true
