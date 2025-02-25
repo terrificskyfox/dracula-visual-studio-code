@@ -1202,12 +1202,16 @@ semanticTokenColors:
 # Methods
 # =============================================================================
 
-  method.virtual:cpp:
+  method:cpp:
     foreground: *GREEN
+    fontStyle: normal
+  method.virtual:cpp:
     fontStyle: italic
     # italic: true
 
-  function.static:cpp:
+  function:cpp:
     foreground: *GREEN
+    fontStyle: normal
+  function.static:cpp:
     fontStyle: bold
     # bold: true
